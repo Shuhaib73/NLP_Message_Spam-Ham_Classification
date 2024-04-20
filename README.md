@@ -1,9 +1,9 @@
-<p align="center" style="font-size: larger; color: #3366cc; font-weight: bold;">
+<p align="center" style="font-size: larger; font-weight: bold;">
   <strong>A Machine Learning Classifier for Mail/SMS Spam Detection using Natural Language Processing (NLP)</strong>
 </p>
 
 <p align="center">
-  <img src='' width='600' height='240' />
+  <img src='https://img.hotimg.com/Untitled-design-2.gif' width='500' height='250' />
 </p>
 You can access the web application[Message_Classifier] by following this link: https://
 
@@ -47,12 +47,58 @@ Cleaning up text data is crucial for preparing it for analysis and machine learn
 ## <br>**➲ Exploratory Data Analysis (EDA)**
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> Frequency Distribution of a Message length
+              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Messages
        </summary>
                      <p align='center'>
                             <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Text_Distribution.png' style='width: 70%;' />
                      </p>
 </details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Ham Messages
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Ham_dirstribution.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Spam Messages
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/spam_distribution.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Ham & Spam Messages in the Dataset
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Ham_spam_dis.png' style='width: 50%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> WordCloud of Ham Message
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/ham_wordcloud.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> WordCloud of Spam Message
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/spam_wordcloud.png' style='width: 70%;' />
+                     </p>
+</details>
+
 
 ## <br>**➲ Model Building**
 
@@ -60,17 +106,30 @@ In the model building phase, I've employed several machine learning algorithms t
 
 The process involved the following steps:
 
-**Data Preparation:** Preprocessed the text data by cleaning and vectorizing it, ensuring that it's in a suitable format for model training.
+**Data Preparation:** *Preprocessed the text data by cleaning and vectorizing it, ensuring that it's in a suitable format for model training.*
 
-**Model Training:** Trained each of the selected algorithms on the preprocessed data. This involved splitting the dataset into training and testing sets, fitting the models to the training data, and evaluating their performance using the testing data.
+**Model Training:** *Trained each of the selected algorithms on the preprocessed data. This involved splitting the dataset into training and testing sets, fitting the models to the training data, and evaluating their performance using the testing data.*
 
-**Performance Evaluation:** Assessed the performance of each model using various evaluation metrics such as accuracy, precision, recall, and F1-score. This step helped in determining which model performed best in classifying spam and ham messages.
+**Performance Evaluation:** *Assessed the performance of each model using various evaluation metrics such as accuracy, precision, recall, and F1-score. This step helped in determining which model performed best in classifying spam and ham messages.*
 
-**Model Selection:** Identified the Random Forest classifier as the best-performing model based on its superior performance compared to other algorithms.
+**Model Selection:** *Identified the Random Forest classifier as the best-performing model based on its superior performance compared to other algorithms.*
 
-**Model Deployment:** Deployed the selected Random Forest model for real-world use cases, enabling it to classify incoming Mail/SMS messages into spam or ham categories effectively.
+**Model Deployment:** *Deployed the selected Random Forest model for real-world use cases, enabling it to classify incoming Mail/SMS messages into spam or ham categories effectively.*
+
+**Classification Report for Training and Testing**
+<p align='center'>
+      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Report.png' style='width: 58%;' />
+</p>
+
+
+**Confusion Matrix for Training and Testing**
+<p align='center'>
+      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/training.png' style='width: 58%;' />
+      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/testing_cls.png' style='width: 58%;' />
+</p>
 
 
 ## <br>**➲ Conclusion:**
+
 
 * **The Random Forest classifier** demonstrates superior performance, achieving a high training accuracy of **99.9%** and a commendable testing accuracy of **98.2%**. Furthermore, its precision, recall, and F1-scores for both classes on both the training and testing datasets are consistently high, indicating robust performance across the board. Therefore, based on these evaluation metrics, we can confidently conclude that the Random Forest classifier outperforms other models and is the best choice for this classification task.*
