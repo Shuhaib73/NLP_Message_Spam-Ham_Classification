@@ -102,7 +102,7 @@ Cleaning up text data is crucial for preparing it for analysis and machine learn
 
 ## <br>**➲ Model Building**
 
-In the model building phase, I've employed several machine learning algorithms to classify messages into spam or ham categories. The algorithms used include Logistic Regression, XGBoost, Multinomial Naive Bayes, and Random Forest.
+In the model building phase, I've employed several machine learning algorithms to classify messages into spam or ham categories. The algorithms used include Logistic Regression, XGBoost, Multinomial Naive Bayes, Random Forest and SVC.
 
 The process involved the following steps:
 
@@ -112,9 +112,9 @@ The process involved the following steps:
 
 **Performance Evaluation:** *Assessed the performance of each model using various evaluation metrics such as accuracy, precision, recall, and F1-score. This step helped in determining which model performed best in classifying spam and ham messages.*
 
-**Model Selection:** *Identified the Random Forest classifier as the best-performing model based on its superior performance compared to other algorithms.*
+**Model Selection:** *Identified the Support Vector classifier as the best-performing model based on its superior performance compared to other algorithms.*
 
-**Model Deployment:** *Deployed the selected Random Forest model for real-world use cases, enabling it to classify incoming Mail/SMS messages into spam or ham categories effectively.*
+**Model Deployment:** *Deployed the SVC model for real-world use cases, enabling it to classify incoming Mail/SMS messages into spam or ham categories effectively.*
 
 **Classification Report for Training and Testing**
 <p align='center'>
