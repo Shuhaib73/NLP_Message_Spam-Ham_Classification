@@ -118,13 +118,13 @@ The process involved the following steps:
 
 **Classification Report for Training and Testing**
 <p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Report1.png' style='width: 58%;' />
+      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/Report1.png' style='width: 58%;' />
 </p>
 
 
 **Confusion Matrix for Training and Testing**
 <p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/testing_cls1.png' style='width: 58%;' />
+      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/testing_cls1.png' style='width: 58%;' />
 </p>
 
 
