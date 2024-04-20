@@ -118,17 +118,26 @@ The process involved the following steps:
 
 **Classification Report for Training and Testing**
 <p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/Report1.png' style='width: 58%;' />
+      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/Report1.png' style='width: 58%;' />
 </p>
 
 
 **Confusion Matrix for Training and Testing**
 <p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/testing_cls1.png' style='width: 58%;' />
+      <img src='https://github.com/Shuhaib73/NLP_Message-Spam-Ham_Classification/blob/main/testing_cls1.png' style='width: 58%;' />
 </p>
 
 
 ## <br>**➲ Conclusion:**
 
+* **The Support Vector Machine classifier** demonstrates superior performance, achieving a high training accuracy of **99%** and a commendable testing accuracy of **98%**. Furthermore, its precision, recall, and F1-scores for both classes on both the training and testing datasets are consistently high, indicating robust performance across the board. Therefore, based on these evaluation metrics, we can confidently conclude that the SVC classifier outperforms other models and is the best choice for this classification task.*
 
-* **The Random Forest classifier** demonstrates superior performance, achieving a high training accuracy of **99.9%** and a commendable testing accuracy of **98.2%**. Furthermore, its precision, recall, and F1-scores for both classes on both the training and testing datasets are consistently high, indicating robust performance across the board. Therefore, based on these evaluation metrics, we can confidently conclude that the Random Forest classifier outperforms other models and is the best choice for this classification task.*
+**Classification Report**
+
+-  The SVC model demonstrates excellent performance in classifying ham messages, achieving high precision, recall, and F1-score. However, it shows slightly lower recall for spam messages, indicating that there is room for improvement in identifying all spam messages correctly. Overall, with an accuracy of 98%, the SVC model effectively distinguishes between ham and spam messages, making it a reliable choice for spam detection tasks.
+
+**Confusion Matrix**
+
+- SVC model is performing well in correctly identifying ham messages (class 0), with 947 instances correctly classified as ham and none incorrectly classified as spam. However, for spam messages (class 1), there are 21 instances incorrectly classified as ham and 147 instances correctly classified as spam.
+
+- From this confusion matrix, we can see that the model is not failing to identify spam messages correctly (i.e., it is not classifying ham as spam). Instead, it is missing some spam messages, leading to false negatives. The model is performing well in identifying ham messages.
